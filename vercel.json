@@ -1,8 +1,5 @@
 {
-  "functions": {
-    "api/elevenlabs.js": {
-      "memory": 256,
-      "maxDuration": 30
-    }
-  }
+  "rewrites": [
+    { "source": "/api/elevenlabs", "destination": "/api/elevenlabs.js" }
+  ]
 }
